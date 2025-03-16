@@ -15,5 +15,8 @@ def get_superheroes():
     rows = ["Superman", "Batman", "Flash", "Linterna Verde", "Mujer maravilla", "Aquaman", "Shazam", "Cyborg"]
     return rows
 
-
+@app.get("/superhoresMarvel")
+def get_superhores():
+    rows = ["Spiderman","Iron man", "Hulk", "Wolverine", "Ghost rider", "Namor", "Black Panther", "Daredevil"]
+    return rows
 
